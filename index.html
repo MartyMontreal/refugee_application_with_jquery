@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Refugee/Host database</title>
+
+<!-- we used site https://www.convertcsv.com/csv-to-json.htm to convert csv to JSON -->
+<!-- data at http://localhost:5500/refugee_database.json -->
+<!-- point browser to localhost:5500/index.html  -->
+
+<!--
+
+Refugee database: Goal of this project is to read in in lists of refygees and host families 
+and match refugees with host families based on number of rooms or beds host can provide  
+
+We use jQuery library to facilitate reading remote API's
+
+maybe we can make drag & drop interface?
+https://jqueryui.com/sortable/#connect-lists
+
+-->
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+    <style>
+        
+        .wrapper {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        }
+
+        table,td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding:3px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <div id = "id_refugee_list"></div>
+        <div id = "id_host_list"></div>
+        
+      </div>
+
+    <script>
+
+    // global variable to hold refugees information
+    let refugee_list ="";
+
+    // global variable to hold host information - to do
+    let host_list ="";
+
+
+    // $.getJSON =  Load JSON-encoded data from the server using a GET HTTP request.
+    // returns response in "response" string
+    $.getJSON('http://localhost:5500/refugee_database.json', function(response) {
+
+    $.each(response , function(index, val) { 
+        //console.log(index, val);
+        refugee_list += ('<tr><td>' + val.Family_Number + '</td>' +
+                        '<td>' + val.Family_member_Sequence  + '</td>' +
+                            '<td>' + val.First_Name  + '</td>' +
+                                '<td>' + val.Last_Name  + '</td>' +
+                                    '<td>' + val.type + '</td></tr>'  );
+        
+        });
+      
+    $("#id_refugee_list").html('<h3>Refugee List</h3>' + '<br><table>' + refugee_list +'</table>');
+    $("#id_host_list").html('<h3>Host List Goes here</h3>' + '<br><table>' + host_list +'</table>');
+ 
+ }); 
+    
+</script>
+
+</body>
+</html>
+

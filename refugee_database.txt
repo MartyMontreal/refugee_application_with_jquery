@@ -1,0 +1,26 @@
+    Family_Number, Family_member_Sequence, First_Name, Last_Name, type
+	1,1,Mykhayl,Anhelyuk,adult
+	1,2,Oleh,Anhelyuk,adult
+	1,3,Valeryi,Anhelyuk,child  
+    2,1,Larysa,Andrusenko,adult  
+	2,2,Hryhoryi,Andrusenko,adult    
+	2,3,Denys,Andrusenko,adult    
+    2,1,Petro,Andrusyshyn,adult   
+	2,2,Marysa,Andrusyshyn,child   
+    3,1,Vladyslav,Antoniv,adult    
+    4,1,Maryna,Bondarenko,adult    
+	4,2,Alyse,Bondarenko,adult    
+	4,3,Larysa,Bondarenko,child    
+	4,4,Raquel,Bondarenko,child    
+    5,1,Hryhoryi,Verminchuk,adult    
+	5,2,Bohdan,Verminchuk,adult    
+	5,3,Vadym,Verminchuk,child    
+    6,1,Denys,Horenko,adult    
+    7,1,Alyna,Gogol,adult   
+	7,2,Elyzaveta,Gogol,child   
+	7,3,Eduard,Gogol,child   
+    8,1,Eduard,Derkach,adult    
+    9,1,Paraskovyia,Yevtukh,adult    
+	10,1,Yvanna,Yevtukh,child    
+	11,1,Olesia,Yevtukh,child    
+    12,1,Varvara,Zherebny,child    

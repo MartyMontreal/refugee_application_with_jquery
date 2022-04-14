@@ -1,0 +1,177 @@
+[
+    {
+      "Family_Number": 1,
+      "Family_member_Sequence": 1,
+      "First_Name": "Mykhayl",
+      "Last_Name": "Anhelyuk",
+      "type": "adult"
+    },
+    {
+      "Family_Number": 1,
+      "Family_member_Sequence": 2,
+      "First_Name": "Oleh",
+      "Last_Name": "Anhelyuk",
+      "type": "adult"
+    },
+    {
+      "Family_Number": 1,
+      "Family_member_Sequence": 3,
+      "First_Name": "Valeryi",
+      "Last_Name": "Anhelyuk",
+      "type": "child  "
+    },
+    {
+      "Family_Number": 2,
+      "Family_member_Sequence": 1,
+      "First_Name": "Larysa",
+      "Last_Name": "Andrusenko",
+      "type": "adult  "
+    },
+    {
+      "Family_Number": 2,
+      "Family_member_Sequence": 2,
+      "First_Name": "Hryhoryi",
+      "Last_Name": "Andrusenko",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 2,
+      "Family_member_Sequence": 3,
+      "First_Name": "Denys",
+      "Last_Name": "Andrusenko",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 2,
+      "Family_member_Sequence": 1,
+      "First_Name": "Petro",
+      "Last_Name": "Andrusyshyn",
+      "type": "adult   "
+    },
+    {
+      "Family_Number": 2,
+      "Family_member_Sequence": 2,
+      "First_Name": "Marysa",
+      "Last_Name": "Andrusyshyn",
+      "type": "child   "
+    },
+    {
+      "Family_Number": 3,
+      "Family_member_Sequence": 1,
+      "First_Name": "Vladyslav",
+      "Last_Name": "Antoniv",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 4,
+      "Family_member_Sequence": 1,
+      "First_Name": "Maryna",
+      "Last_Name": "Bondarenko",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 4,
+      "Family_member_Sequence": 2,
+      "First_Name": "Alyse",
+      "Last_Name": "Bondarenko",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 4,
+      "Family_member_Sequence": 3,
+      "First_Name": "Larysa",
+      "Last_Name": "Bondarenko",
+      "type": "child    "
+    },
+    {
+      "Family_Number": 4,
+      "Family_member_Sequence": 4,
+      "First_Name": "Raquel",
+      "Last_Name": "Bondarenko",
+      "type": "child    "
+    },
+    {
+      "Family_Number": 5,
+      "Family_member_Sequence": 1,
+      "First_Name": "Hryhoryi",
+      "Last_Name": "Verminchuk",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 5,
+      "Family_member_Sequence": 2,
+      "First_Name": "Bohdan",
+      "Last_Name": "Verminchuk",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 5,
+      "Family_member_Sequence": 3,
+      "First_Name": "Vadym",
+      "Last_Name": "Verminchuk",
+      "type": "child    "
+    },
+    {
+      "Family_Number": 6,
+      "Family_member_Sequence": 1,
+      "First_Name": "Denys",
+      "Last_Name": "Horenko",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 7,
+      "Family_member_Sequence": 1,
+      "First_Name": "Alyna",
+      "Last_Name": "Gogol",
+      "type": "adult   "
+    },
+    {
+      "Family_Number": 7,
+      "Family_member_Sequence": 2,
+      "First_Name": "Elyzaveta",
+      "Last_Name": "Gogol",
+      "type": "child   "
+    },
+    {
+      "Family_Number": 7,
+      "Family_member_Sequence": 3,
+      "First_Name": "Eduard",
+      "Last_Name": "Gogol",
+      "type": "child   "
+    },
+    {
+      "Family_Number": 8,
+      "Family_member_Sequence": 1,
+      "First_Name": "Eduard",
+      "Last_Name": "Derkach",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 9,
+      "Family_member_Sequence": 1,
+      "First_Name": "Paraskovyia",
+      "Last_Name": "Yevtukh",
+      "type": "adult    "
+    },
+    {
+      "Family_Number": 10,
+      "Family_member_Sequence": 1,
+      "First_Name": "Yvanna",
+      "Last_Name": "Yevtukh",
+      "type": "child    "
+    },
+    {
+      "Family_Number": 11,
+      "Family_member_Sequence": 1,
+      "First_Name": "Olesia",
+      "Last_Name": "Yevtukh",
+      "type": "child    "
+    },
+    {
+      "Family_Number": 12,
+      "Family_member_Sequence": 1,
+      "First_Name": "Varvara",
+      "Last_Name": "Zherebny",
+      "type": "child    "
+    }
+   ]
